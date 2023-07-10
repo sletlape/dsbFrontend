@@ -1,6 +1,6 @@
-const baseURL = 'http://localhost:4000'; // Update with your API URL
 
-// API endpoint URLs
+const baseURL = import.meta.env.VITE_DSB_API_URL
+
 const sentencesEndpoint = `${baseURL}/sentence`;
 const wordTypesEndpoint = `${baseURL}/wordType`;
 const wordsEndpoint = `${baseURL}/word`;
